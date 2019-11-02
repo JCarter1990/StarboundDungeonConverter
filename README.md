@@ -2,7 +2,7 @@
 Old starbound dungeons are quite tedious to look through if you are trying to make a json version of it, 
 so i made this tool to make things a bit easier.
 
-Make sure to create an input folder and output folder, for whatever reason github decided to remove them when i uploaded this.
+Make sure to create an input folder and output folder within the Starbound Dungeon Converter folder, for whatever reason github decided to remove them when i uploaded this.
 
 You put the png's of the dungeon into the input folder and run the python file, it will ask you for the path to your 
 starbound/tiled/packed directory. Once you have entered this just wait for the results.
