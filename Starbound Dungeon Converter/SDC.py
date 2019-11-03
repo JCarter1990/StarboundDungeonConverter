@@ -81,7 +81,7 @@ def convert():
                     objects[value] = Path(str(starboundPath) + "/materials/" + brush[1][1] + ".png")
                 elif "left" in tileList["comment"]:
                     flippedObjects[value] = Path(str(starboundPath) + "/objects/" + brush[1][1] + ".png")
-                elif "right" in tileList["comment"]:
+                else:
                     objects[value] = Path(str(starboundPath) + "/objects/" + brush[1][1] + ".png")
 
     for image in os.listdir(inputFolder):
